@@ -14,12 +14,13 @@ TimeLine1.to("#fanta",{
 TimeLine1.to("#orange",{
     top:"160%",
     left:"80%",
+    rotate:"360deg"
 },'orange')
 
 TimeLine1.to("#orange-half",{
     top:"110%",
     left:"20%",
-    rotate:"180deg",
+    rotate:"360deg",
 },'orange')
 
 TimeLine1.to("#leaf",{
@@ -57,24 +58,30 @@ TimeLine2.to("#orange-half",{
     rotate:"180deg",
 },'second')
 
-TimeLine2.from("#page3orange1",{
-    rotate: "-90deg",
-    left: "-100%",
-}, 'second')
 TimeLine2.from("#pepsi",{
-    rotate: "-90deg",
-    left: "-100%",
-}, 'second')
+    top:"200%",
+    left:"0%",
+    rotate:"359deg",
+},'second')
 
-TimeLine2.from("#page3orange2",{
-    rotate: "90deg",
-    left: "100%",
-}, 'second')
+TimeLine2.to("#page3orange1",{
+    bottom:"75%",
+    left:"-20px",
+    rotate:"360deg"
+},'second')
+
 TimeLine2.from("#CocaCola",{
-    rotate: "90deg",
-    botttom:"19%",
-    left: "100%",
-}, 'second')
+    top:"200%",
+    left:"20%",
+    rotate:"359deg",
+},'second')
+
+TimeLine2.to("#page3orange2",{
+    bottom:"75%",
+    left:"-20px",
+    rotate:"360deg"
+},'second')
+
 
 
 
