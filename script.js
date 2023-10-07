@@ -26,6 +26,7 @@ TimeLine1.to("#orange-half",{
 TimeLine1.to("#leaf",{
     top:"100%",
     left:"50%",
+    rotate:"359deg",
 },'orange')
 
 TimeLine1.to("#leaf2",{
@@ -84,7 +85,7 @@ TimeLine2.to("#page3orange2",{
 
 
 
-
+//for the mouse move animation...
     let page1=document.querySelector(".page1");
 let mouse=document.querySelector(".mouse");
 page1.addEventListener("mouseenter",function(){
